@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    width:25%;
+    height: 100%;
+    border: solid 2px black;
+}
+
+.cont{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.cont1{
+    width: 60%;
+    height: 100%;
+}
+.cont2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:start;
+    align-items: end;
+}
+
+#uno{
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+}
+#dos{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+
+}
+#tres{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#cuatro{
+    width: 100%;
+    height: 25%;
+    background-color: green;
+}
+#cinco{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+

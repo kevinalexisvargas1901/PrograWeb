@@ -1,0 +1,16 @@
+h2{
+    color: red;
+}
+.izquierda{
+    font-size: 50 px;
+    color: green;
+}
+#hombre{
+    text-decoration: underline;
+    color: yellow;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 50px black;
+}
