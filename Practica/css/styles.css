@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "menu"
+    "hero"
+    "main"
+    "banner"
+    "container"
+    ;
+    background-color: blue;
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+}
+menu{
+    grid-area: menu;
+    background-color: aqua;
+}
+aside{
+    grid-area: hero;
+    background-color: black;
+}
+
+main{
+    grid-area: main;
+    background-color: bisque;
+}
+footer{
+    grid-area: banner;
+    background-color: blueviolet;
+}
+
+#container{
+    grid-area: container;
+    display: flex;
+    flex-direction: column;
+}
+
+#caja1{
+    background-color: brown;
+    width: 100%;
+    height: 50%;
+}
+#caja2{
+    background-color: lawngreen;
+    width: 100%;
+    height: 50%;
+}
+
+@media (min-width: 760px){
+    body{
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 10% 30% 30% 15% 15% ;
+        grid-template-areas: 
+        "header    header"
+        "hero      hero"
+        "menu      main"
+        "menu      banner"
+        "menu      container";
+    }
+    #container {
+        flex-direction: row;
+    }
+
+    #caja1 { width: 15%; 
+        height: 100%;
+        border-radius: 50%;
+    }
+    #caja2 { 
+        width: 40%; 
+        height: auto;
+    }
+}
+
+@media (min-width: 1024px){
+body{
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 10% 40% 30% 20%;
+        grid-template-areas: 
+        "header menu menu"
+        "hero hero hero"
+        "main container container"
+        "banner banner banner";
+    }
+    #container{
+    flex-direction: column;
+}
+#caja1{
+    width: 100%;
+    height: 50%;
+}
+#caja2{
+    width: 100%;
+    height: 50%;
+}
+} */
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "aside"
+    "main"
+    "container"
+    "footer"
+    ;
+}
+
+header{
+    grid-area: header;
+    background-color: orange;
+}
+aside{
+    grid-area: aside;
+    background-color: cornflowerblue;
+}
+main{
+    grid-area: main;
+    background-color: gray;
+}
+header{
+    grid-area: header;
+    background-color: orange;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: container;
+    background-color: green;
+}
+footer{
+    grid-area: footer;
+    background-color: black;
+}
+#uno,#dos,#tres{
+    border: solid 1px white;
+    width: 500px;
+    height: 80px;
+}
+
+@media (min-width: 760px){
+    body{
+        grid-template-columns: 1fr 2fr ;
+        grid-template-areas: 
+        "header header"
+        "aside main"
+        "aside container"
+        "footer footer"
+        ;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        grid-template-columns: 1fr 2fr ;
+        grid-template-areas: 
+        "header header"
+        "aside container"
+        "aside container"
+        "main main"
+        "footer footer"
+        ;
+    }
+} */
+ body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "menu"
+    "section"
+    "container"
+    "aside"
+    "footer"
+    ;
+ }
+
+header{
+    grid-area: header;
+    background-color: red;
+ }
+menu{
+    grid-area: menu;
+    background-color: yellow;
+ }
+section{
+    grid-area: section;
+    background-color: purple;
+ }
+  #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: container;
+    background-color: aqua;
+ }
+ #uno,#dos,#tres,#cuatro{
+    border: solid 1px black;
+    width: 500px;
+    height: 80px;
+ }
+  aside{
+    grid-area: aside;
+    background-color: palevioletred;
+ }
+  footer{
+    grid-area: footer;
+    background-color: black;
+ }
+
+ @media (min-width: 1024px){
+    body{
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "header header"
+        "menu section"
+        "container aside"
+        "footer footer"
+        ;
+    }
+    #container{
+        display: flex;
+    }
+    
+ }
+
