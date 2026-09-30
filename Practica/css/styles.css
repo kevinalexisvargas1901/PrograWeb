@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
+body{
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -104,7 +104,7 @@ body{
     width: 100%;
     height: 50%;
 }
-} */
+}
 
 /* body{
     width: 100vw;
@@ -314,7 +314,7 @@ section{
     border-radius: 50%;
  } */
 
- body{
+ /* body{
     background-color: blue;
     width: 100vw;
     height: 100vh;
@@ -395,5 +395,95 @@ section{
         width: 45%;
         height: 80%;
     }
+ } */
+
+ /* body{
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "container"
+    "aside"
+    "footer"
+    ;
  }
+
+ header{
+    background-color: green;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #caja{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: solid 2px red;
+ }
+ nav{
+    background-color: red;
+    grid-area: nav;
+ }
+ #cont1{
+    background-color: yellow;
+    grid-area: container;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .cont{
+    width: 90%;
+    height: 150px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .caja{
+    width: 80%;
+    height: 60px;
+    background-color: gray;
+ }
+ aside{
+    background-color: cornflowerblue;
+    grid-area: aside;
+ }
+ footer{
+    background-color: palevioletred;
+    grid-area: footer;
+ }
+
+ @media(min-width:769px){
+    body{
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "aside container"
+        "footer footer"
+        ;
+    }
+
+    .cont{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .caja{
+    width: 300px;
+    height: 60px;
+    background-color: gray;
+ }
+
+ } */
 
