@@ -28,13 +28,39 @@
 // console.log(variables);
 
 const edades = [18, 17, 15, 19];
-let mayor = false;
-for (let index = 0; index < edades.length; index++) {
-    if (index >= 18) {
-        edades[index];
-        mayor = true;
+
+let a = 5;
+let b = "5";
+if (a === b) {
+    console.log("Son iguales");
+}else {
+    console.log("No son iguales");
+}
+
+for (let i = 0; i < edades.length; i++) {
+    if (edades[i] >= 18) {
+        console.log("Es mayor de edad");
     } else {
-        edades[index];
-        mayor = false;
-    
+        console.log("Es menor de edad");
+    }
+}
+
+switch (a) {
+    case 1:
+        console.log("Es uno");
+        break;
+    case 2:
+        console.log("Es dos");
+        break;
+    case 3:
+        console.log("Es tres");
+        break;
+    default:
+        console.log("No es ninguno de los anteriores");
+        break;
+}  
+
+while (a < 10) {
+    console.log(a);
+    a++;
 }
